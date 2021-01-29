@@ -1,7 +1,7 @@
 # py_TicTacToe
 Tic Tac Toe Collaboration in Python
 
-#GITHUB COLLAB EXPLAINED FOR FIRST TIMERS
+# GITHUB COLLAB EXPLAINED FOR FIRST TIMERS
 # Objectives
 - Learn why we use the branching workflow.
 - Develop conventions of branching and merging.
