@@ -17,7 +17,7 @@ def printBoard(board0):
     print('    |   |')
     print('  ' + board[7]   +   '  |  '  + board[8]  +  ' |  '   + board[9])
     print('    |   |')
-def isWinner(bo. le):
+def isWinner(bo, le) :
     # Given a board and a player's letter, this function returns True if th at player has won.
     # We use bo instead of board and le instead of letter so we don't have to type as much.
     return ((bo [7] == le and bo[8] == le and bo[9] == le) or # across the top)
@@ -27,4 +27,6 @@ def isWinner(bo. le):
     (bo[8] == le and bo[5] == le and bo[2] == le) or # down the middle 
     (bo[9] == le and bo[6] == le and bo[3] == le) or # down the right side 
     (bo[7] == le and bo[5] == le and bo[3] == le) or # diagonal
-    (bo[9] == le and bo[5] == ;e and bo[1] == le) or # diagonal
+    (bo[9] == le and bo[5] == le and bo[1] == le) or # diagonal
+
+    
